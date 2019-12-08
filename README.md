@@ -1,6 +1,6 @@
-# Java PDF merger
+# Java PDF merger as a Spring Cloud Function
 
-Simple application in Java to merge list of pdfs to one, using itextpdf lib.
+## Important information
+Multipart file is currently not supported in Spring Cloud Function. 
+The only multipart data allowed right now is `String`.
 
-## Run
-Edit paths to input files and output file and run program.
